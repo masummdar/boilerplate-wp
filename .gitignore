@@ -1,0 +1,9 @@
+# Ignore wp-config
+wordpress/wp-config.php
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wordpress/.tmb/
+wordpress/wp-content/*
+!wordpress/wp-content/plugins/
+!wordpress/wp-content/themes/

@@ -1,5 +1,6 @@
 # Ignore wp-config
 wordpress/wp-config.php
+wordpress/wp-config-sample.php
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.

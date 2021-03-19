@@ -1,10 +1,9 @@
-# Ignore wp-config
-wordpress/wp-config.php
-wordpress/wp-config-sample.php
 
-# Ignore everything in the "wp-content" directory, except the "plugins"
-# and "themes" directories.
-wordpress/.tmb/
-wordpress/wp-content/*
-!wordpress/wp-content/plugins/
-!wordpress/wp-content/themes/
+# Ignore sensitive files
+.env
+# Ignore everything inside wordpress
+wordpress/*
+
+# Now selectively track just the folders you want to track
+# For some examples
+# !wordpress/wp-content/plugins/my-awesome-plugin/

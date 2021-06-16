@@ -5,7 +5,7 @@ services:
   db:
     container_name: $DB_CONTAINER
     image: mariadb:latest
-    restart: always
+    #restart: always
     volumes:
       - /srv/www/${VIRTUAL_HOST}/db_data:/var/lib/mysql
     environment:
@@ -19,7 +19,7 @@ services:
     build: .
     depends_on:
       - db
-    restart: always
+    #restart: always
     volumes:
       - ./wordpress:/var/www/html
     environment:

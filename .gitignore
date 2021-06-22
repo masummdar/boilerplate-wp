@@ -1,10 +1,12 @@
-# Ignore wp-config
-wordpress/wp-config.php
-wordpress/wp-config-sample.php
-
-# Ignore everything inside wordpress
+# WordPress
 wordpress/wp-content/*
-
-# Now selectively track just the folders you want to track
-!wordpress/wp-content/plugins/
 !wordpress/wp-content/themes/
+!wordpress/wp-content/plugins/
+
+# Themes
+wordpress/wp-content/themes/*
+#!wordpress/wp-content/themes/custom-theme/
+
+# Plugins
+wordpress/wp-content/plugins/*
+#!wordpress/wp-content/plugins/custom-plugin/
